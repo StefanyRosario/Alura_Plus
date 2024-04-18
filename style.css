@@ -23,7 +23,10 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
+
 
 .container{
     height: 100vh;
@@ -39,9 +42,10 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom:  1em;
 }
 
-.botao_sencundario{
+.botao__sencundario{
     background-color: transparent; 
     border: 2px solid var(--branco-principal);
     
@@ -55,3 +59,31 @@ body{
     font-size: 18px;
 font-weight: 700;
 }
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin:0 6em;
+}
+
+.sencundario__imagem{
+    width: 80%;
+}
+.sencundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+    
+
