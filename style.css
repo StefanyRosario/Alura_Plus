@@ -85,5 +85,34 @@ font-weight: 700;
     color: var(--cinza-secundario);
 }
 
+.sencundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container___descricao{
+    padding: 2em;
+
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
     
+.dispositivos{
+     text-align: center;
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+
+}
+
+.dispositivos__favoritos{
+    font-size: 48px;
+    color: var(--branco-principal);
+
+}
 
